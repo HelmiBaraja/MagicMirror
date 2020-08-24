@@ -53,6 +53,11 @@ var config = {
 			module: "calendar",
 			header: "My Work Calendar",
 			position: "top_left",
+			timeFormat: “absolute”,
+			maxTitleLength: 40,
+			wrapEvents: true,
+			tableClass: "medium",
+			urgency: 0,
 			config: {
 				calendars: [
 					{

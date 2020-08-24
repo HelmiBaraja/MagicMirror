@@ -47,7 +47,7 @@ var config = {
 		},
 		{
 			module: "clock",
-			position: "top_left"
+			position: "top_left",
 			config: {
 				dateFormat: "dd MMM yyy"
 			}

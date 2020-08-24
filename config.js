@@ -84,11 +84,11 @@ var config = {
     },
 		{
 			module: "currentweather",
-			position: "top_right",
+			position: "top_left",
 			config: {
-				location: "New York",
+				location: "Kuala Lumpur, Malaysia",
 				locationID: "", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				appid: "ed7df1cfd3fcdc525d3286aee9ab4478"
 			}
 		},
 		{

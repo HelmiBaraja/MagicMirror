@@ -29,7 +29,7 @@ var config = {
 
 	language: "en",
 	logLevel: ["INFO", "LOG", "WARN", "ERROR"],
-	timeFormat: 24,
+	timeFormat: 12,
 	units: "metric",
 	// serverOnly:  true/false/"local" ,
 	// local for armv6l processors, default
@@ -48,13 +48,6 @@ var config = {
 		{
 			module: "clock",
 			position: "top_left",
-			config: {
-				timeFormat: "12",
-				//clockBold: true,
-				displayType: "both",
-				analogFace: "face-003",
-				analogPlacement: "right"
-			}
 		},
 		{
 			module: "calendar",

@@ -58,12 +58,7 @@ var config = {
 					{
 						symbol: "calendar",
 					    //url: "webcal://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics"
-					    url: "https://outlook.office365.com/owa/calendar/ffdaec0a22014bf3b39cb29ad4709da4@paynet.my/5fe2a2e13bea4329b3cd88b43bbe9bb78010980403509293999/S-1-8-3958703164-953848229-1809269325-198250515/reachcalendar.html https://outlook.office365.com/owa/calendar/ffdaec0a22014bf3b39cb29ad4709da4@paynet.my/5fe2a2e13bea4329b3cd88b43bbe9bb78010980403509293999/S-1-8-3958703164-953848229-1809269325-198250515/reachcalendar.ics",
-					    auth: {
-						user: 'helmi.baraja@gmail.com',
-						pass: 'superstrongpassword',
-						method: 'basic'
-					    }
+					    url: "https://outlook.office365.com/owa/calendar/ffdaec0a22014bf3b39cb29ad4709da4@paynet.my/ad8fefb39dc54541a2a6c23e66de6a1a1071722289518569486/calendar.ics"
 					}
 				]
 			}

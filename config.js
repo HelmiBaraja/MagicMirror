@@ -50,11 +50,10 @@ var config = {
 			position: "top_left",
 			config: {
 				timeFormat: "12",
-				showPeriodUpper: true,
 				clockBold: true,
 				displayType: "both",
-				analogFace: "face-010",
-				analogPlacement: "top",
+				analogFace: "face-002",
+				analogPlacement: "right",
 				timezone: "Etc/GMT+8"
 			}
 		},
@@ -64,9 +63,6 @@ var config = {
 			position: "top_left",
 			config: {
 				timeFormat: "relative",
-				maxTitleLength: 40,
-				wrapEvents: true,
-				tableClass: "medium",
 				showEnd: false,
 				urgency: 0,
 				calendars: [

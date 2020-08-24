@@ -84,23 +84,23 @@ var config = {
     },
 		{
 			module: "currentweather",
-			position: "top_left",
+			position: "top_right",
 			config: {
-				location: "Kuala Lumpur, Malaysia",
-				locationID: "", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				location: "Kuala Lumpur",
+				locationID: "1735161", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
 				appid: "ed7df1cfd3fcdc525d3286aee9ab4478"
 			}
 		},
-		{
-			module: "weatherforecast",
-			position: "top_right",
-			header: "Weather Forecast",
-			config: {
-				location: "New York",
-				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				appid: "YOUR_OPENWEATHER_API_KEY"
-			}
-		},
+		// {
+		// 	module: "weatherforecast",
+		// 	position: "top_right",
+		// 	header: "Weather Forecast",
+		// 	config: {
+		// 		location: "New York",
+		// 		locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+		// 		appid: "YOUR_OPENWEATHER_API_KEY"
+		// 	}
+		// },
 		{
 			module: "newsfeed",
 			position: "bottom_bar",

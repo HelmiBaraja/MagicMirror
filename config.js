@@ -48,25 +48,27 @@ var config = {
 		{
 			module: "clock",
 			position: "top_left",
-			timeFormat: "12",
-			showPeriodUpper: true,
-			clockBold: true,
-			displayType: "both",
-			analogFace: "face-010",
-			analogPlacement: "top",
-			timezone: "Etc/GMT+8"
+			config: {
+				timeFormat: "12",
+				showPeriodUpper: true,
+				clockBold: true,
+				displayType: "both",
+				analogFace: "face-010",
+				analogPlacement: "top",
+				timezone: "Etc/GMT+8"
+			}
 		},
 		{
 			module: "calendar",
 			header: "My Work Calendar",
 			position: "top_left",
-			timeFormat: "relative",
-			maxTitleLength: 40,
-			wrapEvents: true,
-			tableClass: "medium",
-			showEnd: false,
-			urgency: 0,
 			config: {
+				timeFormat: "relative",
+				maxTitleLength: 40,
+				wrapEvents: true,
+				tableClass: "medium",
+				showEnd: false,
+				urgency: 0,
 				calendars: [
 					{
 						symbol: "calendar",

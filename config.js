@@ -49,10 +49,10 @@ var config = {
 			module: "clock",
 			position: "top_left",
 			config: {
-				//timeFormat: "12",
+				timeFormat: "12",
 				//clockBold: true,
 				displayType: "both",
-				analogFace: "face-002",
+				analogFace: "face-003",
 				analogPlacement: "right"
 			}
 		},
